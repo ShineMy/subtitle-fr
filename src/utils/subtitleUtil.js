@@ -70,10 +70,10 @@ function getSubtitleJson(subtitleFilesPath) {
         }
       }
     } else {
-      let fileDataArr = fileData.split("\r\n\r\n");
+      let fileDataArr = fileData.split(/\r?\n\r?\n/);
       for (let j = 0; j < fileDataArr.length; j++) {
         let lineData = fileDataArr[j];
-        let lineDataArr = lineData.split("\r\n");
+        let lineDataArr = lineData.split(/\r?\n/);
         let index = lineDataArr[0];
         let timeline = lineDataArr[1];
         let subtitle = "";

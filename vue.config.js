@@ -4,8 +4,8 @@ module.exports = {
             nodeIntegration: true,
             builderOptions: {
                 "publish": ["github"],
-                "appId": "com.subtitle-fr.app",
-                "productName": "subtitle-fr",
+                "appId": "com.subtitle-de.app",
+                "productName": "subtitle-de",
                 "copyright": "Copyright © 2022 by TMX",
                 "directories": {
                     "output": "./output"//输出文件路径
