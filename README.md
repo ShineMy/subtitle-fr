@@ -1,4 +1,4 @@
-# subtitle-es
+# subtitle-fr
 
 ## Project setup
 ```
