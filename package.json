@@ -1,6 +1,6 @@
 {
-  "name": "subtitle-fr",
-  "version": "1.0.0",
+  "name": "subtitle-de",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
